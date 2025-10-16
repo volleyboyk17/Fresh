@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English to Tamil Translator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌐 English to Tamil Translator</h1>
+            <p>Translate English text to Tamil instantly</p>
+        </header>
+        
+        <div class="translator-container">
+            <div class="input-section">
+                <label for="english-input">English Text:</label>
+                <textarea 
+                    id="english-input" 
+                    placeholder="Enter English text here..."
+                    rows="6"
+                ></textarea>
+            </div>
+            
+            <div class="translate-button-container">
+                <button id="translate-btn" onclick="translateText()">
+                    🔄 Translate
+                </button>
+            </div>
+            
+            <div class="output-section">
+                <label for="tamil-output">Tamil Translation:</label>
+                <textarea 
+                    id="tamil-output" 
+                    placeholder="Tamil translation will appear here..."
+                    rows="6"
+                    readonly
+                ></textarea>
+            </div>
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>📝 Simple Interface</h3>
+                <p>Easy-to-use translator with clean design</p>
+            </div>
+            <div class="feature">
+                <h3>⚡ Instant Translation</h3>
+                <p>Get translations with a single click</p>
+            </div>
+            <div class="feature">
+                <h3>📱 Responsive Design</h3>
+                <p>Works perfectly on all devices</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Built with ❤️ for Tamil language enthusiasts</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
